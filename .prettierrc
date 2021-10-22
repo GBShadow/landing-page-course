@@ -1,0 +1,6 @@
+{
+  "singleQuote": true,
+  "semi": false,
+  "simicolon": false,
+  "arrowParens": "avoid"
+}
