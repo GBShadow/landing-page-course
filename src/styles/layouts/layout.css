@@ -1,0 +1,15 @@
+.l-main {
+  position: relative;
+  display: grid;
+  grid-template-columns:
+    calc(50vw - var(--width) / 2)
+    repeat(3, 1fr)
+    calc(50vw - var(--width) / 2);
+  z-index: 2;
+}
+
+.c-image-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

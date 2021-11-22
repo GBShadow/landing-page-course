@@ -1,15 +1,15 @@
-import { Layout } from 'components/Layout'
-import { Section1 } from 'components/Sections/Section1'
 import React from 'react'
+import { Layout } from 'components/Layout'
+import { Section1 } from 'components/sections/Section1'
 import { TopBar } from '../components/TopBar'
 
 export default function Home() {
   return (
-    <>
-      <TopBar />
-      <Layout>
+    <Layout>
+      <>
+        <TopBar />
         <Section1 />
-      </Layout>
-    </>
+      </>
+    </Layout>
   )
 }

@@ -1,0 +1,66 @@
+.u-color-blue {
+  color: var(--blue-light);
+  font-size: inherit;
+}
+
+.l-about-school {
+  width: 100%;
+}
+
+.l-about-school__header {
+  width: 600px;
+  margin-bottom: 6.8rem;
+  padding-bottom: 6.8rem;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.l-about-school__header__title {
+  font-size: 60px;
+}
+
+.l-about-school__header__title {
+  font-weight: 500;
+  margin-bottom: 4.8rem;
+}
+
+.l-about-school__header__text {
+  font-size: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.l-about-school__link {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.l-about-school__content {
+  width: 600px;
+}
+
+.l-about-school__content__title {
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+
+.c-differentials__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.c-differentials__icon {
+  margin-right: 0.8rem;
+}
+
+.c-differentials__title {
+  font-size: 2rem;
+}
+
+.c-differentials__text {
+  font-size: 1.8rem;
+}
+
+.c-differentials + .c-differentials {
+  margin-top: 3.2rem;
+}
